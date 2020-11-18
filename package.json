@@ -1,0 +1,12 @@
+{
+  "name": "jest-newrelic-memory-leak",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "NEW_RELIC_NO_CONFIG_FILE=true NEW_RELIC_ENABLED=false jest --logHeapUsage"
+  },
+  "dependencies": {
+    "jest": "^26.6.3",
+    "newrelic": "^7.0.1"
+  }
+}
